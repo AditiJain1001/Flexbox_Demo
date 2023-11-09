@@ -1,0 +1,39 @@
+/* BASE STYLES */
+:root {
+  --clr-dark: #000000;
+  --clr-light: white;
+  --clr-accent: red;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 0.0875rem;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 600px;
+  margin: auto auto;
+  border: 10px solid var(--clr-dark);
+}
+
+.item {
+  width: 9.375rem;
+  height: 9.375rem;
+  background-color: azure;
+}
+/* END OF BASE STYLES */
